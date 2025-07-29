@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Display</title>
+    <script src="exam.js"></script>
+</head>
+<style>
+
+body{
+background-color: rgb(216, 190, 157);
+}
+body h1{
+    color: rgb(76, 72, 49);
+    text-align: center;
+}
+
+body button{
+    margin-left: 50px;
+    background-color: rgb(135, 109, 22);
+    color: white;
+    font-size: 20px;
+    margin: 3px;
+    border-radius: 12px;
+    padding-top: 14px;
+    border-style: none;
+}
+
+body button:hover{
+    background-color: rgb(217, 187, 67);
+    animation-delay:1s;
+ 
+}
+#error:hover {
+    background-color: rgb(202, 0, 0);
+    color: white;
+}
+
+
+</style>
+
+<body>
+    <h1>JS Exam (Study Guide)</h1>
+        
+<div class="bttn-list">
+        <button onclick="output()">JS Output</p>
+        <button onclick="statements()">JS Statements</p>
+        <button onclick="syntax()">JS Syntax</p>
+        <button onclick="variables()">JS Variables</p>
+        <button id="error" onclick="functions()">JS Functions</p>
+        <button onclick="Objects()">JS objects</p>
+        <button onclick="constructors()">Js Object Constructors</p>
+        <button onclick="events()">JS Events</p>
+</div>
+            
+</body>
+
+</html>

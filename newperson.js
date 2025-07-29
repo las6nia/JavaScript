@@ -1,7 +1,7 @@
-/*const collegeSt= {
+const collegeSt= {
   firstName: "Luis",
   occupation: "College Student.",
-  address: "108 Brown Quail",
+  address: "2021 fish wayne St",
   gpa: 3.2,
   major: "Cybersecurity",
   education: "UWGB",
@@ -14,7 +14,7 @@ console.log(collegeSt.firstName+" is a "+ collegeSt.occupation+" He lives at "+ 
 function highschoolSt(base){
   this.firstName = "Alex";
   this.occupation = "High school student.";
-  this.address = "1713 onsgard rd"
+  this.address = "1924 negra aroyo ln"
   this.gpa = base.gpa;
   this.education = "UW-Madison"
   this.age = base.age;
@@ -32,8 +32,8 @@ function career(base){
 
 
 }
-  */
 
+//testing {}
 var foo = 'bar';
 console.log(`Let's meet at the ${foo}`);
 // Let's meet at the bar

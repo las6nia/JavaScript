@@ -1,0 +1,100 @@
+<style>
+    body{
+        background-color: rgba(147, 133, 207, 0.844);
+    }
+    *{
+        margin: 0;
+        padding: 0;
+
+    }    
+    body{
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vh;
+    }
+
+    .first-part{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+
+    
+    }
+    .first-part h1{
+        color: white;
+        padding: 10px;
+    }
+
+    .first-part input{
+        align-items: center;
+        background-color: rgb(142, 39, 171);
+        border-radius: 10px;
+        padding: 10px;
+        border-style: none;
+        font-size: 20px;
+        margin: 10px;
+        color: white;
+
+    }
+    ::placeholder{
+        color: rgba(239, 232, 232, 0.386);
+        outline: none;
+    }
+    input:focus{
+        outline: none;
+    }
+    .first-part button{
+        background-color: rgb(156, 24, 162);
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        border-style: none;
+
+    }
+    .main-holder{
+
+        background-color: rgba(110, 42, 173, 0.787);
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 20vh;
+        margin-left: 10vh;
+        margin-right: 10vh;
+
+    }
+    .main-holder h1, h2{
+        color: honeydew;
+    }
+    .main-holder h1{
+        padding-right: 10px;
+    }
+    .main-holder h2{
+        align-items: center;
+        font-size: 30px;
+
+    }
+
+</style>
+<div class="first-part">
+    <h1>JavaScript Value Output</h1>
+    <input type="text" id="userInput" placeholder="Type something...">
+    <button onclick="showInput()">Submit</button>
+    
+    <div class="main-holder">
+        <h1>The output is: </h1>
+        <h2 id="output"></h2>
+    </div >
+
+
+
+</div>
+
+<script>
+function showInput() {
+    let value = document.getElementById("userInput").value;
+    document.getElementById("output").innerHTML =  value;
+}
+</script>
